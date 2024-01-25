@@ -1,0 +1,23 @@
+GET http://localhost:8000/api/users
+
+PUT http://localhost:8000/api/users/4
+Content-Type: application/json
+
+{
+  "nama": "supardi kuyy",
+  "email": "supardi@yahho.com",
+  "umur": 19
+}
+
+# DELETE   http://localhost:8000/api/users/2
+# Content-Type: application/json
+
+
+# POST http://localhost:8000/api/delete/2
+# Content-Type: application/json
+
+# {
+#   "nama": "supdari aja",
+#   "email": "supardi@yahho.com",
+#   "umur": 20
+# }
